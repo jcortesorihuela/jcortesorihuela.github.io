@@ -282,3 +282,7 @@ details > summary {
   color:#808080;
   text-align: justify;
 }
+
+.hidden { display: none; }
+
+.unhidden { text-align: left; font-weight: 400; color: #444; height: 100%; font-size: .92em; margin: 1em 0; line-height: 1.7em; text-rendering: optimizeLegibility; font-feature-settings: "lnum" 1; font-variant-numeric: lining-nums; font-feature-settings: "liga" 1; font-variant-ligatures: normal; border-left: 2px solid #444; padding: 0 0 0 20px; }
