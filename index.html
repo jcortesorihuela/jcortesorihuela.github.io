@@ -76,5 +76,25 @@
           </div>
           </div>
        </ul>
+          
+    <script async>
+    function unhide(abstract) {
+      var item = document.getElementById(abstract);
+      var link = document.getElementById(abstract.concat("_abstract"));
+
+      if (item) {
+        if (item.className == 'hidden') {
+          item.className = 'unhidden';
+          link.innerHTML = "[Abstract]";
+        }
+        else {
+          item.className = 'hidden';
+          link.innerHTML = ("[Abstract]");
+        }
+      }
+    }
+
+  </script>
+            
 </html>
 
